@@ -1,0 +1,494 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>eGrocery Store</title>
+<link rel="stylesheet" type="text/css" href="style.css"/>
+<link rel="shortcut icon" href="fav-icon.png"/>
+<link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+</head>
+<body>
+    <nav class="navigation">
+        <a href="index.html" class="logo">
+            <span>e</span>Grocery
+        </a>
+        <input type="checkbox" class="menu-btn" id="menu-btn">
+        <label for="menu-btn" class="menu-icon">
+            <span class="nav-icon"></span>
+        </label>
+        <ul class="menu">
+            <li><a href="index.html" class="active">Home</a></li>
+            <li><a href="#category">Categories</a></li>
+            <li><a href="#popular-bundle-pack">Our Packages</a></li>
+            <li><a href="#download-app">Our App</a></li>
+            <li><a href="feedback.html" target="_blank">Feedback</a></li>
+        </ul>
+        <div class="right-nav">
+            <a href="#" class="like">
+                <i class="far fa-heart"></i>
+                <span>0</span>
+            </a>
+            <a href="cart.html" class="cart" target="_blank">
+                <i class="fas fa-shopping-cart"></i>
+                <span>0</span>
+            </a>
+        </div>
+    </nav>
+    <section id="search-banner">
+        <img alt="bg" class="bg-1" src="bg-1.png">
+        <img alt="bg-2" class="bg-2" src="bg-2.png">
+        <div class="search-banner-text">
+            <h1>Order Your daily Groceries</h1>
+            <strong>#Free Delivery</strong>
+            <form action="" class="search-box">
+                <i class="fas fa-search"></i>
+                <input type="text" class="search-input" placeholder="Search your daily groceries" name="search" required>
+                <input type="submit" class="search-btn" value="Search">
+            </form>
+        </div>
+    </section>
+    <section id="category">
+        <div class="category-heading">
+            <h2>Category</h2>
+            <span>All</span>
+        </div>
+        <div class="category-container">
+            <a href="#" class="category-box">
+                <img alt="Fish" src="fish.png">
+                <span>Fish & Meat</span>
+            </a>
+            <a href="#" class="category-box">
+                <img alt="Fish" src="Vegetables.png">
+                <span>Vegatbles</span>
+            </a>
+            <a href="#" class="category-box">
+                <img alt="Fish" src="medicine.png">
+                <span>Medicine</span>
+            </a>
+            <a href="#" class="category-box">
+                <img alt="Fish" src="baby.png">
+                <span>Baby</span>
+            </a>
+            <a href="#" class="category-box">
+                <img alt="Fish" src="office.png">
+                <span>Office</span>
+            </a>
+            <a href="#" class="category-box">
+                <img alt="Fish" src="beauty.png">
+                <span>Beauty</span>
+            </a>
+            <a href="#" class="category-box">
+                <img alt="Fish" src="Gardening.png">
+                <span>Gardening</span>
+            </a>
+        </div>
+        
+    </section>
+    <section id="popular-product">
+        <div class="product-heading">
+            <h3>Popular Product</h3>
+            <span>All</span>
+        </div>
+        <div class="product-container">
+            <div class="product-box">
+                <img alt="apple" src="apple.png">
+                <strong>Apple</strong>
+                <span class="quantity">1 KG</span>
+                <span class="price">₹200</span>
+                <a href="#" class="cart-btn">
+                    <i class="fas fa-shopping-bag"></i> Add Cart
+                </a>
+                <a href="#" class="like-btn">
+                    <i class="far fa-heart"></i>
+                </a>
+            </div>
+            <div class="product-box">
+                <img alt="apple" src="chili.png">
+                <strong>Chili</strong>
+                <span class="quantity">1 KG</span>
+                <span class="price"> ₹100</span>
+                <a href="#" class="cart-btn">
+                    <i class="fas fa-shopping-bag"></i> Add Cart
+                </a>
+                <a href="#" class="like-btn">
+                    <i class="far fa-heart"></i>
+                </a>
+            </div>
+            <div class="product-box">
+                <img alt="apple" src="onion.png">
+                <strong>Onion</strong>
+                <span class="quantity">1 KG</span>
+                <span class="price">₹50</span>
+                <!--cart-btn------->
+                <a href="#" class="cart-btn">
+                    <i class="fas fa-shopping-bag"></i> Add Cart
+                </a>
+                <!--like-btn------->
+                <a href="#" class="like-btn">
+                    <i class="far fa-heart"></i>
+                </a>
+            </div>
+            <!--box---------->
+            <div class="product-box">
+                <img alt="apple" src="patato.png">
+                <strong>Patato</strong>
+                <span class="quantity">1 KG</span>
+                <span class="price">₹21</span>
+                <!--cart-btn------->
+                <a href="#" class="cart-btn">
+                    <i class="fas fa-shopping-bag"></i> Add Cart
+                </a>
+                <!--like-btn------->
+                <a href="#" class="like-btn">
+                    <i class="far fa-heart"></i>
+                </a>
+            </div>
+            <!--box---------->
+            <div class="product-box">
+                <img alt="apple" src="garlic.png">
+                <strong>Garlic</strong>
+                <span class="quantity">1 KG</span>
+                <span class="price">₹100</span>
+                <!--cart-btn------->
+                <a href="#" class="cart-btn">
+                    <i class="fas fa-shopping-bag"></i> Add Cart
+                </a>
+                <!--like-btn------->
+                <a href="#" class="like-btn">
+                    <i class="far fa-heart"></i>
+                </a>
+            </div>
+            <!--box---------->
+            <div class="product-box">
+                <img alt="apple" src="tamato.png">
+                <strong>Tamato</strong>
+                <span class="quantity">1 KG</span>
+                <span class="price">₹32</span>
+                <!--cart-btn------->
+                <a href="#" class="cart-btn">
+                    <i class="fas fa-shopping-bag"></i> Add Cart
+                </a>
+                <!--like-btn------->
+                <a href="#" class="like-btn">
+                    <i class="far fa-heart"></i>
+                </a>
+            </div>
+        </div>
+    </section>
+    <!--popular-product-end--------------------->
+    <!--Popular-bundle-pack===================================-->
+    <section id="popular-bundle-pack">
+        <!--heading-------------->
+        <div class="product-heading">
+            <h3>Popular Bundle Pack</h3>
+        </div>
+        <!--box-container------>
+        <div class="product-container">
+            <!--box---------->
+            <div class="product-box">
+                <img alt="pack" src="pack1.png">
+                <strong>Big Pack</strong>
+                <span class="quantity">Lemone, Tamato, Patato,+4</span>
+                <span class="price">₹250</span>
+                <!--cart-btn------->
+                <a href="#" class="cart-btn">
+                    <i class="fas fa-shopping-bag"></i> Add Cart
+                </a>
+                <!--like-btn------->
+                <a href="#" class="like-btn">
+                    <i class="far fa-heart"></i>
+                </a>
+            </div>
+            <!--box---------->
+            <div class="product-box">
+                <img alt="apple" src="pack2.jpg">
+                <strong>Large Pack</strong>
+                <span class="quantity">Lemone, Tamato, Patato,+2</span>
+                <span class="price">₹500</span>
+                <!--cart-btn------->
+                <a href="#" class="cart-btn">
+                    <i class="fas fa-shopping-bag"></i> Add Cart
+                </a>
+                <!--like-btn------->
+                <a href="#" class="like-btn">
+                    <i class="far fa-heart"></i>
+                </a>
+            </div>
+            <!--box---------->
+            <div class="product-box">
+                <img alt="apple" src="pack3.png">
+                <strong>Small Pack</strong>
+                <span class="quantity">Lemone, Tamato, Patato</span>
+                <span class="price">₹240</span>
+                <!--cart-btn------->
+                <a href="#" class="cart-btn">
+                    <i class="fas fa-shopping-bag"></i> Add Cart
+                </a>
+                <!--like-btn------->
+                <a href="#" class="like-btn">
+                    <i class="far fa-heart"></i>
+                </a>
+            </div>
+            <!--box---------->
+            <div class="product-box">
+                <img alt="pack" src="pack1.png">
+                <strong>Big Pack</strong>
+                <span class="quantity">Lemone, Tamato, Patato,+4</span>
+                <span class="price">₹700</span>
+                <!--cart-btn------->
+                <a href="#" class="cart-btn">
+                    <i class="fas fa-shopping-bag"></i> Add Cart
+                </a>
+                <!--like-btn------->
+                <a href="#" class="like-btn">
+                    <i class="far fa-heart"></i>
+                </a>
+            </div>
+            <!--box---------->
+            <div class="product-box">
+                <img alt="apple" src="pack2.jpg">
+                <strong>Large Pack</strong>
+                <span class="quantity">Lemone, Tamato, Patato,+2</span>
+                <span class="price">₹400</span>
+                <!--cart-btn------->
+                <a href="#" class="cart-btn">
+                    <i class="fas fa-shopping-bag"></i> Add Cart
+                </a>
+                <!--like-btn------->
+                <a href="#" class="like-btn">
+                    <i class="far fa-heart"></i>
+                </a>
+            </div>
+            <!--box---------->
+            <div class="product-box">
+                <img alt="apple" src="pack3.png">
+                <strong>Small Pack</strong>
+                <span class="quantity">Lemone, Tamato, Patato</span>
+                <span class="price">₹240</span>
+                <!--cart-btn------->
+                <a href="#" class="cart-btn">
+                    <i class="fas fa-shopping-bag"></i> Add Cart
+                </a>
+                <!--like-btn------->
+                <a href="#" class="like-btn">
+                    <i class="far fa-heart"></i>
+                </a>
+            </div>
+        </div>
+    </section>
+    <!--popular-bundle-pack-end-------------------------------->
+    <!--==Clients===============================================-->
+    <section id="clients">
+        <!--heading---------------->
+        <div class="client-heading">
+            <h3>What Our Client's Say</h3>
+        </div>
+        <!--box-container---------->
+        <div class="client-box-container">
+            <!--box------------->
+            <div class="client-box">
+                <!--==profile===-->
+                <div class="client-profile">
+                    <!--img--->
+                    <img alt="client" src="client-1.jpg">
+                    <!--text-->
+                    <div class="profile-text">
+                        <strong>James Mcavoy</strong>
+                        <span>CEO</span>
+                    </div>
+                </div>
+                <!--==Rating======-->
+                <div class="rating">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                </div>
+                <!--==comments===-->
+                <p>
+                    The grocery mart excels in product variety, offering fresh produce and international foods, and has friendly staff in a clean, well-organized environment. Regular promotions provide good value. However, it faces challenges with stock availability, long checkout lines, navigation, and online shopping options. Enhancing these areas, along with a loyalty program, could improve the overall shopping experience</p>
+            </div>
+            <!--box------------->
+            <div class="client-box">
+                <!--==profile===-->
+                <div class="client-profile">
+                    <!--img--->
+                    <img alt="client" src="client-2.jpg">
+                    <!--text-->
+                    <div class="profile-text">
+                        <strong>Adward Mcavoy</strong>
+                        <span>Software Developer</span>
+                    </div>
+                </div>
+                <!--==Rating======-->
+                <div class="rating">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                </div>
+                <!--==comments===-->
+                <p>
+                    The grocery mart excels in product variety, offering fresh produce and international foods, and has friendly staff in a clean, well-organized environment. Regular promotions provide good value. However, it faces challenges with stock availability, long checkout lines, navigation, and online shopping options. Enhancing these areas, along with a loyalty program, could improve the overall shopping experience</p>
+            </div>
+            <!--box------------->
+            <div class="client-box">
+                <!--==profile===-->
+                <div class="client-profile">
+                    <!--img--->
+                    <img alt="client" src="client-3.jpg">
+                    <!--text-->
+                    <div class="profile-text">
+                        <strong>Ava Alex</strong>
+                        <span>Marketer</span>
+                    </div>
+                </div>
+                <!--==Rating======-->
+                <div class="rating">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                </div>
+                <!--==comments===-->
+                <p>
+                    The grocery mart excels in product variety, offering fresh produce and international foods, and has friendly staff in a clean, well-organized environment. Regular promotions provide good value. However, it faces challenges with stock availability, long checkout lines, navigation, and online shopping options. Enhancing these areas, along with a loyalty program, could improve the overall shopping experience</p>
+            </div>
+        </div>
+    </section>
+    <!--client-section-end---------->
+    <!--==Partnre-logo================================-->
+    <section id="partner">
+        <!--heading------------>
+        <div class="partner-heading">
+            <h3>Our Trusted Partner</h3>
+        </div>
+        <!--logo-container----->
+        <div class="logo-container">
+            <img alt="logo" src="logo-1.png">
+            <img alt="logo" src="logo-2.png">
+            <img alt="logo" src="logo-3.png">
+            <img alt="logo" src="logo-4.png">
+        </div>
+    </section>
+    <!--logo-section-end--------------------->
+    <!--==download-app====================================-->
+    <section id="download-app">
+        <!--img----------------------->
+        <div class="app-img">
+            <img alt="app" src="mobile-app.png">
+        </div>
+        <!--text---------------------->
+        <div class="download-app-text">
+            <strong>Download App</strong>
+            <p>SHUBHAM SINGH GROCERRY  is designed to MAKE LIFE COMFORT. It offers features such as FREE DELIVERY, aimed at 2000 who need MORE PERSON. Users will benefit by COUPON BENEFIT, and what sets it apart is UNIQE SELLING . Built using [technology stack], it follows a monetization strategy of monetization approach. The development timeline includes MANY TIMES, and I invite you to UPDATE APP.</p>
+            <!--btns------->
+            <div class="download-btns">
+                <a href="#"><img alt="" src="appstore-btn.png"></a>
+                <a href="#"><img alt="" src="googleplay-btn.png"></a>
+            </div>
+        </div>
+    </section>
+    <!--download-app-section-end------------------------->
+    <!--==Footer=============================================-->
+    <footer>
+        <div class="footer-container">
+            <!--logo-container------>
+            <div class="footer-logo">
+                <a href="#"><span>e</span>Grocery</a>
+                <!--social----->
+                <div class="footer-social">
+                    <a href="#"><i class="fab fa-facebook-f"></i></a>
+                    <a href="#"><i class="fab fa-twitter"></i></a>
+                    <a href="#"><i class="fab fa-instagram"></i></a>
+                    <a href="#"><i class="fab fa-youtube"></i></a>
+                </div>
+            </div>
+            <!--links------------------------->
+        <div class="footer-links">
+            <strong>Product</strong>
+            <ul>
+                <li><a href="#">Clothes</a></li>
+                <li><a href="#">Packages</a></li>
+                <li><a href="#">Popular</a></li>
+                <li><a href="#">New</a></li>
+            </ul>
+        </div>
+        <!--links------------------------->
+        <div class="footer-links">
+            <strong>Category</strong>
+            <ul>
+                <li><a href="#">Beauty</a></li>
+                <li><a href="#">Meats</a></li>
+                <li><a href="#">Kids</a></li>
+                <li><a href="#">Clothes</a></li>
+            </ul>
+        </div>
+        <!--links-------------------------->
+        <div class="footer-links">
+            <strong>Contact</strong>
+            <ul>
+                <li><a href="#">Phone :6263893959</a></li>
+                <li><a href="#">Email :shubhamsinghlbps@gmail.com</a></li>
+            </ul>
+        </div>
+        </div>
+    </footer>
+    <script>
+        // Initialize an empty cart
+        let cart = JSON.parse(localStorage.getItem('cart')) || [];
+    
+        // Function to add item to cart
+        function addToCart(product) {
+            cart.push(product);
+            localStorage.setItem('cart', JSON.stringify(cart)); // Save to localStorage
+            updateCartCount();
+            alert(`${product.name} has been added to your cart!`);
+        }
+    
+        // Function to update cart count in the navigation
+        function updateCartCount() {
+            const cartCountElement = document.querySelector('.cart span');
+            cartCountElement.textContent = cart.length;
+        }
+    
+        // Add event listeners to all "Add Cart" buttons
+        document.querySelectorAll('.cart-btn').forEach(button => {
+            button.addEventListener('click', function(event) {
+                event.preventDefault(); // Prevent the default anchor behavior
+    
+                // Get product details from the parent product box
+                const productBox = this.closest('.product-box');
+                const productName = productBox.querySelector('strong').textContent;
+                const productPrice = productBox.querySelector('.price').textContent;
+    
+                // Create a product object
+                const product = {
+                    name: productName,
+                    price: productPrice,
+                    quantity: 1 // Default quantity
+                };
+    
+                // Call the function to add to cart
+                addToCart(product);
+            });
+        });
+    
+        // Initialize cart count on page load
+        updateCartCount();
+        const product = {
+    name: productName,
+    price: parseFloat(productPrice),
+    quantity: 1, // Default quantity
+    image: productBox.querySelector('img').src // Get the product image
+};
+    </script>
+</body>
+</html>
